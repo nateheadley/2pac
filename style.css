@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	align-items: flex-start;
+
+}
+
+ 
+h1 { 
+ font-family: 'Send Flowers', cursive;
+ font-size: 80px;
+ text-align: center;
+}
+
+h2 { 
+ font-family: 'Send Flowers', cursive;
+ font-size: 65px;
+ text-align: center;
+}
+
+h2.bio {
+	font-size: 55px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.albums-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+.albums-wrap div {
+	width: 30%;
+	margin: 0 50px;
+	text-align: center;
+}
+
+.albums-wrap div img {
+	width: 100%;
+}
+
+.years {
+	width: 100px!important;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+	
+ 
+.years p { 
+ 	font-family: 'Send Flowers', cursive;
+ 	font-size: 28px;
+
+}
+
+.map {
+	text-align: center;
+}
+.map iframe {
+	margin:  0 auto;
+}
+footer {
+	display: flex;
+	justify-content: center;
+}
